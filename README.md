@@ -59,10 +59,3 @@ Designed for HR teams and recruiters to reduce manual resume screening time and 
 - Advanced ML ranking models
 - Cloud deployment
 
----
-
-👨‍💻 Author
-
-Pavan Kumar
-
-Computer Science & Engineering (AI & ML)
