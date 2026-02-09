@@ -37,30 +37,18 @@ An **AI-powered HR automation web application** that uses **Natural Language Pro
 
 ---
 
-## 📂 Project Structure
-ai-resume-screening-system/
-│
-├── app.py
-├── assets/
-│ └── screenshots/
-├── data/
-│ └── resumes/
-├── model/
-├── src/
-│ ├── preprocess.py
-│ └── train.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 📌 Usage
 - Enter the job description
 - Upload one or more resume files (.txt)
 - Click Rank Resumes
 - View ranked candidates with similarity scores
 
+---
+
 🎯 Use Case
 Designed for HR teams and recruiters to reduce manual resume screening time and improve hiring efficiency using AI.
+
+---
 
 🔮 Future Enhancements
 - PDF resume parsing
@@ -68,7 +56,8 @@ Designed for HR teams and recruiters to reduce manual resume screening time and 
 - Advanced ML ranking models
 - Cloud deployment
 
-👨‍💻 Author
+---
 
+👨‍💻 Author
 Pavan Kumar
 Computer Science & Engineering (AI & ML)
