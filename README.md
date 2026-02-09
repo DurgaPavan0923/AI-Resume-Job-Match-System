@@ -37,8 +37,7 @@ An **AI-powered HR automation web application** that uses **Natural Language Pro
 
 ---
 
-📌 Usage
-
+## 📌 Usage
 - Enter the job description
 - Upload one or more resume files (.txt)
 - Click Rank Resumes
@@ -46,14 +45,12 @@ An **AI-powered HR automation web application** that uses **Natural Language Pro
 
 ---
 
-🎯 Use Case
-
+## 🎯 Use Case
 Designed for HR teams and recruiters to reduce manual resume screening time and improve hiring efficiency using AI.
 
 ---
 
-🔮 Future Enhancements
-
+## 🔮 Future Enhancements
 - PDF resume parsing
 - Skill extraction and ATS score calculation
 - Advanced ML ranking models
