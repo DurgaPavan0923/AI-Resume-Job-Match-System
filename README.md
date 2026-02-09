@@ -64,4 +64,5 @@ Designed for HR teams and recruiters to reduce manual resume screening time and 
 👨‍💻 Author
 
 Pavan Kumar
+
 Computer Science & Engineering (AI & ML)
