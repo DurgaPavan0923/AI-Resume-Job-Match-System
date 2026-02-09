@@ -52,3 +52,23 @@ ai-resume-screening-system/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+📌 Usage
+- Enter the job description
+- Upload one or more resume files (.txt)
+- Click Rank Resumes
+- View ranked candidates with similarity scores
+
+🎯 Use Case
+Designed for HR teams and recruiters to reduce manual resume screening time and improve hiring efficiency using AI.
+
+🔮 Future Enhancements
+- PDF resume parsing
+- Skill extraction and ATS score calculation
+- Advanced ML ranking models
+- Cloud deployment
+
+👨‍💻 Author
+
+Pavan Kumar
+Computer Science & Engineering (AI & ML)
