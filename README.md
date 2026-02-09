@@ -1,20 +1,54 @@
-# AI Resume Screening System
+# 🧠 AI Resume Screening System
 
-An HR automation project using NLP and Machine Learning to rank resumes based on job descriptions.
+An **AI-powered HR automation web application** that uses **Natural Language Processing (NLP)** and **Machine Learning** techniques to automatically screen and rank resumes based on a given job description.
 
-## Features
-- Resume parsing
+---
+
+## 🚀 Features
+- Job description input
+- Upload multiple resumes
+- Resume text preprocessing using NLP
 - TF-IDF vectorization
-- Cosine similarity ranking
-- Automated shortlisting
+- Cosine similarity–based ranking
+- Automated candidate shortlisting
+- Interactive web interface built with Streamlit
 
-## Tech Stack
+---
+
+## 📸 App Preview
+
+### 🔹 Home Screen
+![Home Screen](assets/screenshots/home.png)
+
+### 🔹 Upload Resumes
+![Upload Resumes](assets/screenshots/upload.png)
+
+### 🔹 Ranking Results
+![Ranking Results](assets/screenshots/results.png)
+
+---
+
+## 🛠️ Tech Stack
 - Python
-- NLP
+- Natural Language Processing (NLP)
+- Machine Learning
 - Scikit-learn
+- Streamlit
 
-## Usage
-1. Add resumes in data/resumes
-2. Update job_description.txt
-3. Run train.py
-4. Run rank_resumes.py
+---
+
+## 📂 Project Structure
+ai-resume-screening-system/
+│
+├── app.py
+├── assets/
+│ └── screenshots/
+├── data/
+│ └── resumes/
+├── model/
+├── src/
+│ ├── preprocess.py
+│ └── train.py
+├── requirements.txt
+├── README.md
+└── .gitignore
