@@ -1,0 +1,13 @@
+python
+java
+machine learning
+nlp
+data analysis
+react
+aws
+docker
+kubernetes
+spring boot
+html
+css
+javascript
