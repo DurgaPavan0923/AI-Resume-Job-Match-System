@@ -181,5 +181,3 @@ It demonstrates practical implementation of NLP + ML in a real-world industry pr
 ✔ Easily extendable to Deep Learning
 
 ✔ Strong portfolio addition
-
----
