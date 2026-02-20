@@ -183,19 +183,3 @@ It demonstrates practical implementation of NLP + ML in a real-world industry pr
 ✔ Strong portfolio addition
 
 ---
-
-## 👨‍💻 Author
-
-**Rajana Durga Pavan Kumar**
-
-Computer Science & Engineering (AI & ML)
-
-Institute of Technical Education and Research
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
-
-```
