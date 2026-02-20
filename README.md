@@ -93,27 +93,18 @@ Ranking & Match Score Output
 
 ---
 
-## 📂 Project Structure
+## 📸 App Preview
 
-```
+### 🖥️ Home Screen
+![Home Screen](assets/screenshots/home.png)
 
-AI-Resume-Job-Match-System/
-│
-├── app.py
-├── model/
-│   └── naive_bayes_model.pkl
-├── utils/
-│   ├── preprocess.py
-│   ├── skill_extractor.py
-│   └── similarity.py
-├── assets/
-│   └── screenshots/
-├── requirements.txt
-└── README.md
+### 📂 Resume Upload & Skill Extraction
+![Upload Screen](assets/screenshots/upload.png)
+
+### 🏆 Ranking Results & Job Role Prediction
+![Results Screen](assets/screenshots/results.png)
 
 ````
-
----
 
 ## ▶️ How to Run Locally
 
