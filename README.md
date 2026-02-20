@@ -96,13 +96,13 @@ Ranking & Match Score Output
 ## 📸 App Preview
 
 ### 🖥️ Home Screen
-![Home Screen](assets/screenshots/home.png)
+![Home Screen](assets/screenshots/home_v2.png)
 
 ### 📂 Resume Upload & Skill Extraction
-![Upload Screen](assets/screenshots/upload.png)
+![Upload Screen](assets/screenshots/upload_v2.png)
 
 ### 🏆 Ranking Results & Job Role Prediction
-![Results Screen](assets/screenshots/results.png)
+![Results Screen](assets/screenshots/results_v2.png)
 
 ---
 
