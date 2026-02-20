@@ -17,11 +17,11 @@ This system analyzes uploaded resumes and matches them against a given job descr
 
 It performs:
 
-- Resume preprocessing using NLP
-- Skill extraction
-- Job role prediction using Naive Bayes
-- Resume ranking using TF-IDF + Cosine Similarity
-- Match score calculation (%)
+- Resume preprocessing using NLP  
+- Skill extraction  
+- Job role prediction using Naive Bayes  
+- Resume ranking using TF-IDF + Cosine Similarity  
+- Match score calculation (%)  
 
 The system reduces manual screening effort and increases hiring efficiency using data-driven decision-making.
 
@@ -42,15 +42,15 @@ The system reduces manual screening effort and increases hiring efficiency using
 
 ## 🧠 How It Works
 
-1. User enters a job description.
-2. User uploads one or more resume files (.txt).
+1. User enters a job description.  
+2. User uploads one or more resume files (.txt).  
 3. The system:
-   - Cleans and preprocesses text (tokenization, stopword removal, normalization).
-   - Extracts relevant skills.
-   - Converts text to TF-IDF vectors.
-   - Calculates cosine similarity between resumes and job description.
-   - Predicts suitable job role using Naive Bayes classifier.
-4. Resumes are ranked based on match percentage.
+   - Cleans and preprocesses text (tokenization, stopword removal, normalization).  
+   - Extracts relevant skills.  
+   - Converts text to TF-IDF vectors.  
+   - Calculates cosine similarity between resumes and job description.  
+   - Predicts suitable job role using Naive Bayes classifier.  
+4. Resumes are ranked based on match percentage.  
 5. Results are displayed in the Streamlit interface.
 
 ---
@@ -60,22 +60,22 @@ The system reduces manual screening effort and increases hiring efficiency using
 ```
 
 Job Description
-     ↓
+      ↓
 Resume Upload (.txt)
-     ↓
+      ↓
 Text Preprocessing (NLTK)
-     ↓
+      ↓
 Skill Extraction
-     ↓
+      ↓
 TF-IDF Vectorization
-     ↓
+      ↓
 Cosine Similarity
-     ↓
+      ↓
 Naive Bayes Role Prediction
-     ↓
+      ↓
 Ranking & Match Score Output
 
-```
+````
 
 ---
 
@@ -104,11 +104,12 @@ Ranking & Match Score Output
 ### 🏆 Ranking Results & Job Role Prediction
 ![Results Screen](assets/screenshots/results.png)
 
-````
+---
 
 ## ▶️ How to Run Locally
 
 ### 1️⃣ Clone Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/AI-Resume-Job-Match-System.git
 cd AI-Resume-Job-Match-System
@@ -172,3 +173,19 @@ It demonstrates practical implementation of NLP + ML in a real-world industry pr
 ✔ Easily extendable to Deep Learning
 
 ✔ Strong portfolio addition
+
+---
+
+## 👨‍💻 Author
+
+**Rajana Durga Pavan Kumar**
+
+B.Tech CSE (AI & ML)
+
+Institute of Technical Education and Research
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
