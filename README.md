@@ -1,13 +1,29 @@
-# 🚀 AI Resume Screening + Job Match System
+# 🚀 AI Resume Screening & Job Match System
 
-An **AI-powered placement-oriented web application** that automates resume screening using **Natural Language Processing (NLP)** and **Machine Learning**.
+An AI-powered intelligent recruitment assistant that automates resume screening using **Natural Language Processing (NLP)** and **Machine Learning**.
 
-This system not only ranks resumes but also:
+Built specifically for:
 
-- Extracts candidate skills  
-- Predicts suitable job roles  
-- Calculates resume-job match score  
-- Helps automate shortlisting during placement season  
+- 🎓 Campus Placement Automation  
+- 🏢 HR Resume Shortlisting  
+- 🚀 Startup Hiring  
+- 🤖 AI-Based Recruitment Systems  
+
+---
+
+## 📌 Project Overview
+
+This system analyzes uploaded resumes and matches them against a given job description.
+
+It performs:
+
+- Resume preprocessing using NLP
+- Skill extraction
+- Job role prediction using Naive Bayes
+- Resume ranking using TF-IDF + Cosine Similarity
+- Match score calculation (%)
+
+The system reduces manual screening effort and increases hiring efficiency using data-driven decision-making.
 
 ---
 
@@ -15,74 +31,171 @@ This system not only ranks resumes but also:
 
 - 📄 Job Description Input  
 - 📂 Upload Multiple Resumes (.txt)  
-- 🧹 Resume Text Preprocessing (NLP)  
-- 🛠️ Skill Extraction Engine  
-- 🎯 Job Role Prediction (Naive Bayes Model)  
-- 📊 TF-IDF + Cosine Similarity Ranking  
-- 🌐 Interactive Web Interface (Streamlit)  
+- 🧹 Resume Text Preprocessing  
+- 🛠️ Technical Skill Extraction  
+- 🎯 Job Role Prediction (Naive Bayes)  
+- 📊 TF-IDF Vectorization  
+- 📈 Cosine Similarity Ranking  
+- 🌐 Interactive Streamlit Interface  
 
 ---
 
-## 📸 App Preview
+## 🧠 How It Works
 
-### 🖥️ Home Screen
-![Home Screen](assets/screenshots/home.png)
+1. User enters a job description.
+2. User uploads one or more resume files (.txt).
+3. The system:
+   - Cleans and preprocesses text (tokenization, stopword removal, normalization).
+   - Extracts relevant skills.
+   - Converts text to TF-IDF vectors.
+   - Calculates cosine similarity between resumes and job description.
+   - Predicts suitable job role using Naive Bayes classifier.
+4. Resumes are ranked based on match percentage.
+5. Results are displayed in the Streamlit interface.
 
-### 📂 Resume Upload & Skill Extraction
-![Upload Screen](assets/screenshots/upload.png)
+---
 
-### 🏆 Ranking Results & Job Role Prediction
-![Results Screen](assets/screenshots/results.png)
+## 🏗️ System Architecture
+
+```
+
+Job Description
+     ↓
+Resume Upload (.txt)
+     ↓
+Text Preprocessing (NLTK)
+     ↓
+Skill Extraction
+     ↓
+TF-IDF Vectorization
+     ↓
+Cosine Similarity
+     ↓
+Naive Bayes Role Prediction
+     ↓
+Ranking & Match Score Output
+
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python  
-- Natural Language Processing (NLTK)  
-- Machine Learning (Scikit-learn)  
-- TF-IDF Vectorization  
-- Naive Bayes Classifier  
-- Cosine Similarity  
-- Streamlit (Web App Framework)  
+| Layer | Technology |
+|-------|------------|
+| Programming Language | Python |
+| NLP | NLTK |
+| Machine Learning | Scikit-learn |
+| Model Used | Multinomial Naive Bayes |
+| Vectorization | TF-IDF |
+| Similarity Metric | Cosine Similarity |
+| Frontend Framework | Streamlit |
 
 ---
 
-## ⚙️ How It Works
+## 📂 Project Structure
 
-1. The user enters a job description.
-2. The user uploads one or more resume files (.txt).
-3. The system:
-   - Cleans and preprocesses resume text using NLP.
-   - Extracts relevant technical skills.
-   - Predicts the most suitable job role using a trained Naive Bayes model.
-   - Converts text into TF-IDF vectors.
-   - Computes cosine similarity between resumes and job description.
-4. Resumes are ranked based on match percentage.
-5. Results are displayed in an interactive Streamlit interface.
+```
+
+AI-Resume-Job-Match-System/
+│
+├── app.py
+├── model/
+│   └── naive_bayes_model.pkl
+├── utils/
+│   ├── preprocess.py
+│   ├── skill_extractor.py
+│   └── similarity.py
+├── assets/
+│   └── screenshots/
+├── requirements.txt
+└── README.md
+
+````
+
+---
+
+## ▶️ How to Run Locally
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/AI-Resume-Job-Match-System.git
+cd AI-Resume-Job-Match-System
+````
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the App
+
+```bash
+streamlit run app.py
+```
+
+Open your browser and go to:
+
+```
+http://localhost:8501
+```
 
 ---
 
 ## 🎯 Placement-Oriented Use Case
 
-This system is designed specifically for:
+This project is ideal for:
 
-- Campus Placement Season
-- University Placement Cells
-- HR Resume Shortlisting
-- Startup Hiring Automation
-- AI-Based Recruitment Tools
+* University placement cells
+* HR departments
+* AI-based ATS systems
+* Recruitment startups
+* Automated resume shortlisting systems
 
-It reduces manual screening effort and improves hiring efficiency using data-driven decision making.
+It demonstrates practical implementation of NLP + ML in a real-world industry problem.
 
 ---
 
 ## 🔮 Future Enhancements
 
-- PDF Resume Parsing
-- Advanced Skill Matching using NLP libraries
-- Deep Learning (BERT-based resume matching)
-- ATS Score Calculation
-- Recruiter/Admin Dashboard
-- Cloud Deployment (Render / Streamlit Cloud)
-- Database Integration for resume storage
+* PDF Resume Parsing
+* Advanced Skill Extraction using NER
+* BERT-based Resume Matching
+* ATS Score Calculation
+* Recruiter Dashboard
+* Database Integration
+* Cloud Deployment (Streamlit Cloud / Render)
+* Authentication System (Admin Login)
+
+---
+
+## 💡 Why This Project Stands Out
+
+✔ Real-world application
+
+✔ Combines NLP + Machine Learning
+
+✔ Placement-ready AI project
+
+✔ Easily extendable to Deep Learning
+
+✔ Strong portfolio addition
+
+---
+
+## 👨‍💻 Author
+
+**Rajana Durga Pavan Kumar**
+
+Computer Science & Engineering (AI & ML)
+
+Institute of Technical Education and Research
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+```
